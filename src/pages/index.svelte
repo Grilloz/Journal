@@ -5,6 +5,4 @@
 
 </script>
 
-<a href={$url('/prova')}>Prova</a>
-<a href={$url('/:test', {test: testlink})}>{testlink}</a>
-
+<h1>Home</h1>
