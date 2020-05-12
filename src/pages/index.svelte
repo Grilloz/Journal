@@ -1,8 +1,8 @@
 <script>
-    
-  import { url } from '@sveltech/routify';
-  let testlink = 'My Test';
-
+  import { goto } from '@sveltech/routify'
+  import { StartingPage } from '../store.js'
+  console.log($StartingPage)
+  $goto($StartingPage)
 </script>
 
 <h1>Home</h1>
