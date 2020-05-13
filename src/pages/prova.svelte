@@ -14,6 +14,18 @@
 
 </script>
 
+<style lang="scss">
+    @import '../css/theme.scss';
+    $primary-color: #5f80c2;
+
+    h1 {
+        color: $primary-color;
+    }
+    h2 {
+        color: $my-color;
+    }
+</style>
+
 <h1>Prova</h1>
 <h2>{datastr}</h2>
 <p>{prossimo}</p>
