@@ -22,7 +22,7 @@
         color: $primary-color;
     }
     h2 {
-        color: $my-color;
+        color: $title-color;
     }
 </style>
 

@@ -2,3 +2,8 @@ tasks:
   - init: npm install && npm run build
     command: npm run dev
 image: gitpod/workspace-full
+
+vscode:
+  extensions:
+    - esbenp.prettier-vscode@4.7.0:kgoYSh1LwTixKtJtQWtodQ==
+    - JamesBirtles.svelte-vscode@0.9.3:aT2nc+VyKmuFE9yDTcvKcw==
