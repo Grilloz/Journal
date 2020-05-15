@@ -6,3 +6,5 @@ export const ThisWeek = readable(formatISO(startOfWeek(new Date()), {representat
 export const ThisMonth = readable(formatISO(startOfMonth(new Date()), {representation: 'date'}));
 
 export const StartingPage = writable("/journalsummary");
+
+export let User = writable();
