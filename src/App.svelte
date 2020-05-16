@@ -15,6 +15,10 @@
     color: $title-color;
   }
 
+  h2 {
+    font-family: 'Raleway';
+  }
+
   p {
     font-family: 'Caveat', cursive;
   }
