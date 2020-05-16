@@ -1,11 +1,11 @@
 <script>
-    import {User} from "../../store.js";
-    import { goto } from '@sveltech/routify';
+  import { User } from '../../store.js'
+  import { goto } from '@sveltech/routify'
 
-    function logout(event) {
-        $User = "";
-        $goto("/User/Login");
-	}
+  function logout(event) {
+    $User = ''
+    $goto('/User/Login')
+  }
 </script>
 
 <h1>Hello {$User}</h1>
