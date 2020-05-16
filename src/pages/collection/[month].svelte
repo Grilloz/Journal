@@ -11,6 +11,17 @@
   })
 </script>
 
+<style>
+  h1 {
+    font-family: 'Fredericka the Great', cursive;
+    /*color: $title-color;*/
+  }
+
+  p {
+    font-family: 'Caveat', cursive;
+  }
+</style>
+
 <h1>{title} Diary</h1>
 <p>Some dummy test</p>
 <div>
