@@ -2,6 +2,8 @@
   import { url, params } from '@sveltech/routify'
   import { parseISO, formatISO, format, addMonths, subMonths } from 'date-fns'
   import { ThisMonth } from '../../store.js'
+  import Collection from "../../components/Collection.svelte";
+
   export let month
 
   $: title = format(parseISO(month), 'MMMM, yyyy')
@@ -23,7 +25,10 @@
 </style>
 
 <h1>{title} Diary</h1>
-<p>Some dummy test</p>
+<p>month: {month}</p>
+
+<Collection name={month} />
+
 <div>
   <a href={$url('/collection/:month', { month: previous })}>Previous Month</a>
 </div>
