@@ -20,5 +20,5 @@
   {:else}
     <span>-</span>
   {/if}
-  <span><{note.text}/span>
+  <span>{note.text}</span>
 </p>
