@@ -1,11 +1,12 @@
 <script>
-  import {getCollection} from "../lib/db.js";
-  import Note from "./Note.svelte";
+  import { getCollection } from '../lib/db.js'
+  import Note from './Note.svelte'
 
   export let name
-  let notes = getCollection(name);
+  $: notes = getCollection(name)
 </script>
 
+<p>collection name: {name}</p>
 {#each notes as note}
-<Note note={note} />
+  <Note {note} />
 {/each}
