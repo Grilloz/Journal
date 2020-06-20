@@ -12,4 +12,6 @@
 {:else}
   <a href={$url('/User/User')}>{$User}</a>
 {/if}
+<a href={$url('/admin')}>Admin</a>
+
 <slot />
